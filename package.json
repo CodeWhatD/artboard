@@ -1,0 +1,17 @@
+{
+  "name": "artboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:utils": "pnpm -r --filter=@artboard/utils run build",
+    "dev:game": "pnpm -r --filter=@artboard/game run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "typescript": "^5.5.4"
+  }
+}
